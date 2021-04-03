@@ -28,18 +28,18 @@
 
 img {
   position: absolute;
-  width: 411px;
-  height: 367px;
+  width: 100%;
+  height: 45%;
   left: 0px;
-  top: 230px;
+  top: 25%;
 }
 
 #name {
   position: absolute;
-  width: 250px;
-  height: 46px;
-  left: 80px;
-  top: 605px;
+  width: 80%;
+  height: 6%;
+  left: 12%;
+  top: 50%;
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
@@ -51,10 +51,10 @@ img {
 
 #motto {
   position: absolute;
-  width: 223px;
-  height: 34px;
-  left: 94px;
-  top: 651px;
+  width: 60%;
+  height: 4%;
+  left: 23%;
+  top: 60%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -62,4 +62,11 @@ img {
   line-height: 22px;
   text-align: center;
   mix-blend-mode: normal;
+}
+
+#btn {
+  position: absolute;
+  top: 90%;
+  width: 80%;
+  left: 10%;
 }

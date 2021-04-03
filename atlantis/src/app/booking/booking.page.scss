@@ -1,0 +1,315 @@
+* {
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+
+}
+
+#menubtn {
+    position: absolute;
+    width: 33px;
+    height: 35px;
+    left: 34px;
+    top: 17px;
+}
+
+#title {
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 130px;
+    top: 19px;
+}
+
+#contactbtn {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    left: 337px;
+    top: 18px;
+    color: black;
+}
+
+#logo {
+    position: absolute;
+    width: 116px;
+    height: 84px;
+    left: 147px;
+    top: 52px;
+}
+
+#oneway{
+    width: 149px;
+    height: 50px;
+    left: 21px;
+    top: 141px;
+}
+
+#onewaybtn {
+    color: #2589cc;;
+}
+
+#icon {
+    padding-right: 5px;
+}
+
+
+#twoway {
+    width: 173px;
+    height: 50px;
+    left: 217px;
+    top: 141px;
+}
+
+.fromselector {
+    width: 370px;
+    height: 86px;
+    left: 20px;
+    top: 221px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+#fromtitle {
+    width: 59px;
+    height: 24px;
+    left: 109px;
+    top:10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#takeoff {
+    width: 64px;
+    height: 64px;
+    left: 25px;
+    top: 10px;
+}
+
+#selector {
+    width: 183px;
+    height: 30px;
+    left: 109px;
+    top: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.toselector {
+    width: 370px;
+    height: 86px;
+    left: 20px;
+    top: 336px;
+    background: rgba(196, 196, 196, 0.16);   
+}
+
+#landing {
+    width: 64px;
+    height: 64px;
+    left: 35px;
+    top: 10px;
+}
+
+#totitle {
+    width: 29px;
+    height: 24px;
+    left: 109px;
+    top:10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#selector2{
+    width: 183px;
+    height: 30px;
+    left: 109px;
+    top: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.departure {
+    width: 170px;
+    height: 86px;
+    left: 20px;
+    top: 490px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+#departimg {
+    width: 42px;
+    height: 41px;
+    left: 10px;
+    top: 5px;
+}
+
+#departtitle {
+    width: 110px;
+    height: 24px;
+    left: 60px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#datetime {
+    width: 160px;
+    height: 24px;
+    left: 2px;
+    top: 50px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.arrival {
+    width: 173px;
+    height: 86px;
+    left: 217px;
+    top: 490px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+#arrivalimg {
+    width: 42px;
+    height: 41px;
+    left: 10px;
+    top: 5px;
+}
+
+#arrivaltitle {
+    width: 110px;
+    height: 24px;
+    left: 30px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#datetime2 {
+    width: 160px;
+    height: 24px;
+    left: 2px;
+    top: 50px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.passengers {
+    width: 173px;
+    height: 86px;
+    left: 20px;
+    top: 613px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+#passengersimg {
+    width: 42px;
+    height: 40px;
+    left: 2px;
+    top: 2px;
+}
+
+#passengertitle {
+    width: 110px;
+    height: 24px;
+    left: 55px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#selector3 {
+    width: 160px;
+    height: 24px;
+    left: 2px;
+    top: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.priority {
+    width: 173px;
+    height: 86px;
+    left: 217px;
+    top: 613px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+#priorityimg {
+    width: 42px;
+    height: 41px;
+    left: 10px;
+    top: 5px;
+}
+
+#prioritytitle {
+    width: 110px;
+    height: 24px;
+    left: 30px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#selector4 {
+    width: 160px;
+    height: 24px;
+    left: 2px;
+    top: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#searchbtn {
+    width: 390px;
+    height: 58px;
+    left: 10px;
+    top: 736px;
+}

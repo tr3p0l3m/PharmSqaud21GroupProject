@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>	
+    <ion-buttons slot="start" id="menubtn">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+      <ion-button id="contactbtn">
+        <ion-icon name="contact"></ion-icon>
+      </ion-button>
+    <ion-title id="title">Search flights</ion-title>
+  </ion-toolbar>
+</ion-header>
+  
+
+
+<ion-content>
+  <ion-img id="logo" src="../../assets/img/logo.jpg"></ion-img>
+  <div>
+    <ion-button id="oneway">ONE WAY</ion-button>
+    <ion-button id="twoway"> TWO WAY</ion-button>
+  </div>
+
+  <div class="fromselector">
+    <ion-img id="takeoff" src="../../assets/img/takeoff.png"></ion-img>
+    <strong id="fromtitle">FROM:</strong>
+    <select id="selector" name="dropdown">
+      <option value="Accra Kotoka">Accra Kotoka</option>
+      <option value="Obasanjo International">Obasanjo International</option>
+    </select>
+  </div>
+
+  <div class="toselector">
+    <ion-img id="landing" src="../../assets/img/landing.png"></ion-img>
+    <strong id="totitle" > TO:</strong>
+    <select id="selector2" name="dropdown">
+      <option value="Accra Kotoka">Accra Kotoka</option>
+      <option value="Obasanjo International">Obasanjo International</option>
+    </select>
+  </div>
+
+  <div class="departure">
+    <ion-img id="departimg" src="../../assets/img/flightcalendar.png"></ion-img>
+    <strong id="departtitle" >Departure:</strong>
+    <input id="datetime" type="date">
+  </div>
+
+  <div class="arrival">
+    <ion-img id="arrivalimg" src="../../assets/img/flightcalendar.png"></ion-img>
+    <strong id="arrivaltitle">Arrival:</strong>
+    <input id="datetime2" type="date">
+  </div>
+
+  <div class="passengers">
+    <ion-img id="passengerimg" src="../../assets/img/passenger.png"></ion-img>
+    <strong id="passengertitle" >Passengers</strong>
+    <select id="selector3" name="dropdown">
+      <option value="Adult">Adult</option>
+      <option value="Child + Adult">Child + Adult</option>
+    </select>
+  </div>
+
+  <div class="priority">
+    <ion-img id="priorityimg" src="../../assets/img/seat.png"></ion-img>
+    <strong id="prioritytitle" >Class</strong>
+    <select id="selector4" name="dropdown">
+      <option value="First Class">First Class</option>
+      <option value="Economy +">Economy +</option>
+      <option value="Economy">Economy</option>
+    </select>
+  </div>
+
+  <ion-button id="searchbtn" expand="block"> SEARCH FLIGHT </ion-button>
+
+</ion-content>
