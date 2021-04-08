@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'flights',
     loadChildren: () => import('./flights/flights.module').then( m => m.FlightsPageModule)
   },
+  {
+    path: 'gen-ticket',
+    loadChildren: () => import('./gen-ticket/gen-ticket.module').then( m => m.GenTicketPageModule)
+  },
 ];
 
 @NgModule({
