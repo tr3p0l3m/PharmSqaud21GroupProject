@@ -1,16 +1,17 @@
 * {
 	position: absolute;
-	font-family: Roboto;
+	font-family: roboto;
 	font-style: normal;
 	font-size: 18px;
 	line-height:21px;
 }
 
-#logo {
-	width: 248px;
+#log {
+	position: absolute;
+	width: auto;
 	height: 171px;
-	left: 87px;
-	top: 0px;
+	left: auto;
+	top: 0%;
 }
 
 .seg1 {
@@ -21,11 +22,27 @@
 	top:183px;
 }
 
+#from {
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 12px;
+	top: 75px;
+}
+
+#to {
+	position: absolute;
+	width: fit-content;
+	height: fit-content;
+	left: 240px;
+	top: 75px;
+}
+
 #passtitle {
 	position:absolute;
 	width: 184px;
 	height: 21px;
-	left: 60px;
+	left: 70px;
 	font-weight: bold;
 	font-size: 18px;
 	text-align:center;
@@ -36,15 +53,15 @@
 	width: 64px;
 	height: 64px;
 	left:1px;
-	top:40px;
+	top:30px;
 }
 
 #landing {
 	position: absolute;
 	width: 52px;
 	height: 58px;
-	left:227px;
-	top:45px;
+	left:250px;
+	top:30px;
 }
 
 .seg2{
@@ -65,111 +82,111 @@
 
 .subtitle2 {
 	font-weight: bold;
-	color: #gray;
+	color: gray;
 }
 
 #one {
 	position: absolute;
 	width: 79px;
 	height: 21px;
-	left: 40px;
-	top:7pxpx;
+	left: 15px;
+	top:1px;
 }
 
 #two {
 	position: absolute;
 	width: 65px;
 	height: 21px;
-	left: 40px;
-	top:34px;
+	left: 15px;
+	top:20px;
 }
 
 #three {
 	position: absolute;
 	width: 45px;
 	height: 21px;
-	left: 161px;
-	top:7pxpx;
+	left: 136px;
+	top:1px;
 }
 
 #four {
 	position: absolute;
 	width: 87px;
 	height: 21px;
-	left: 167px;
-	top:34px;
+	left: 136px;
+	top:20px;
 }
 
 #five {
 	position: absolute;
 	width: 72px;
 	height: 21px;
-	left: 292px;
-	top:7pxpx;
+	left: 267px;
+	top:1px;
 }
 
 #six {
 	position: absolute;
 	width: auto;
 	height: auto;
-	left: 292px;
-	top:34px;
+	left: 267px;
+	top:20px;
 }
 
 #seven {
 	position: absolute;
 	width: 38px;
 	height: 21px;
-	left: 40px;
-	top:57pxpx;
+	left: 15px;
+	top:51px;
 }
 
 #eight {
 	position: absolute;
 	width: auto;
 	height: auto;
-	left: 40px;
-	top:84px;
+	left: 15px;
+	top:70px;
 }
 
 #nine {
 	position: absolute;
 	width: 42px;
 	height: 21px;
-	left: 164px;
-	top:57px;
+	left: 136px;
+	top:51px;
 }
 
 #ten {
 	position: absolute;
 	width: 65px;
 	height: 21px;
-	left: 167px;
-	top:84px;
+	left: 136px;
+	top:70px;
 }
 
 #eleven {
 	position: absolute;
 	width: auto;
 	height: auto;
-	left: 296px;
-	top:57px;
+	left: 271px;
+	top:51px;
 }
 
 #twelve {
 	position: absolute;
 	width: auto;
 	height: auto;
-	left: 388px;
-	top:84px;	
+	left: 271px;
+	top:70px;	
 }
 
 .seg3 {
 	position: absolute;
-	width: 349px;
+	width: 352px;
 	height: 146px;
 	left:32px;
-	top:439px;
+	top:442px;
 
 	background: rgba(196, 196, 196, 0.16);
 	border-radius: 5%;
@@ -196,71 +213,72 @@ ion-button {
 }
 
 #title3 {
+	position: absolute;
 	width: auto;
-	height: auto;
-	left: 53px;
-	top: 445px;
+	height: 21px;
+	left: 32px;
+	top:0px;
 }
 
 #contimg {
 	width: 41px;
 	height: 43px;
-	left: 53px;
-	top: 60px;
+	left: 32px;
+	top: 45px;
 }
 
 #name {
 	width: auto;
 	height: auto;
-	left: 112px;
-	top: 43px;
+	left: 91px;
+	top: 28px;
 }
 
 #cat1 {
 	width: auto;
 	height: auto;
-	left: 112px;
-	top: 70px;
+	left: 91px;
+	top: 55px;
 }
 
 #contimg2 {
 	width: 41px;
 	height: 43px;
-	left: 53px;
-	top: 120px;
+	left: 32px;
+	top: 105px;
 }
 
 #name2 {
 	width: auto;
 	height: auto;
-	left: 112px;
-	top: 100px;
+	left: 91px;
+	top: 85px;
 }
 
 #cat2 {
 	width: auto;
 	height: auto;
-	left: 112px;
-	top: 130px;
+	left: 91px;
+	top: 115px;
 }
 
 #title4 {
 	width: auto;
 	height: auto;
-	left: 105px;
+	left: 90px;
 	top:2px;
 }
 
 #qrcode {
 	width: 88px;
 	height: 64px;
-	left: 53px;
+	left: 22px;
 	top: 50px;
 }
 
 #barcode {
 	width: 64px;
 	height: 64px;
-	left: 285px;
+	left: 260px;
 	top: 50px
 }
