@@ -5,15 +5,15 @@
 
 }
 
-#menubtn {
+ion-menu-button {
     position: absolute;
     width: 33px;
     height: 35px;
-    left: 34px;
-    top: 17px;
+    margin-left: auto;
+    margin-top: auto;
 }
 
-#title {
+ion-title {
     position: absolute;
     width: 180px;
     height: 29px;
@@ -21,13 +21,14 @@
     top: 19px;
 }
 
-#contactbtn {
+.btn-right{
     position: absolute;
     width: 40px;
     height: 38px;
-    left: 337px;
-    top: 18px;
+    left: 90%;
+    margin-top: auto;
     color: black;
+    float:right;
 }
 
 #logo {
