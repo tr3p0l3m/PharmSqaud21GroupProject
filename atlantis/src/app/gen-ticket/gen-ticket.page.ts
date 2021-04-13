@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HTTP } from '@ionic-native/http/ngx';
+import { LocalNotifications } from '@ionic-native/local-notifications/ngx';
 
 
 @Component({
@@ -15,8 +16,9 @@ export class GenTicketPage implements OnInit {
   public data;
   public ticketID;
   public items: any;
+  tickets: Array<object>;
  
-  constructor( private route: ActivatedRoute, private http: HTTP ) { }
+  constructor( private route: ActivatedRoute, private http: HTTP, private LocalNotifications: LocalNotifications ) { }
 
   async getTicket(tk=10) {
  
@@ -32,18 +34,38 @@ export class GenTicketPage implements OnInit {
       this.items =  JSON.parse(response.data);
       console.log(response.headers);
 
+
+
     } catch (error) {
       console.error(error.status);
       console.error(error.error); // Error message as string
       console.error(error.headers);
     }
   }
+
+  Ticket_Notif(){
+    this.LocalNotifications.schedule({
+      id: 1,
+      text: 'Your flight has been succesfully booked.',
+      data: {secret: 'secret'},
+      silent: false,
+      group: 'Atlantis',
+      autoClear: true,
+      launch: true,
+      priority: 3,
+      vibrate: true,
+      foreground: true
+    });
+  }
+  
   ngOnInit() {
 
     this.getTicket();
 
     //fetch('http://thecode4allinitiative.org/atlantis/atlantis/getTicket.php').then(response => response.json()).then(parsedData => this.tickets = parsedData);
-  
+    //fetch('http://thecode4allinitiative.org/atlantis/atlantis/getTicket.php').then(response => response.json()).then(parsedData => this.tickets = parsedData);
+    
+    this.Ticket_Notif();
   }
 
 }
