@@ -8,13 +8,14 @@ import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http/ngx';
 import { Component } from '@angular/core';
+import { LocalNotifications } from '@ionic-native/local-notifications/ngx'
 
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, HTTP, HttpClient, Component],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, HTTP, HttpClient, Component, LocalNotifications],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
