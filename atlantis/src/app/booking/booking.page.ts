@@ -15,7 +15,8 @@ export class BookingPage implements OnInit {
     this.http.get('http://thecode4allinitiative.org/atlantis/atlantis/getAllFlightData.php')
     .subscribe(data => {
       console.log();
-    })
+    });
+    this.Ticket_Notif();
   }
 
   Ticket_Notif(){
