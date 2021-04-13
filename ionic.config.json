@@ -1,0 +1,7 @@
+{
+  "name": "PharmSquad21GroupProject",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

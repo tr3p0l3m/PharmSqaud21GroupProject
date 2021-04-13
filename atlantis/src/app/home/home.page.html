@@ -1,14 +1,11 @@
 <ion-content [fullscreen]="true">
 
   <ion-img src="../../assets/img/logo.jpg"></ion-img>
-  <ion-text>
-    <strong id="name">Atlantis Airlines</strong>
-    <p id="motto">"Getting you there!"</p>
-  </ion-text>
-
-  <div class="container">
-    <ion-button routerLink='/login'>LOG IN</ion-button>
-    <ion-button routerLink='/booking'>BOOKING PAGE</ion-button>
-    <ion-button routerLink='/flights'>FLIGHTS PAGE</ion-button>
-    <ion-button routerLink='/gen-ticket'>GEN-TICKET</ion-button>
+  <div style="text-align: center;">
+    <ion-text>
+      <strong>Atlantis Airlines</strong>
+      <p>"Getting you there!"</p>
+    </ion-text>
+    <ion-button fill="outline" slot="end" routerLink="/booking">Fly With Us!</ion-button>
   </div>
+
