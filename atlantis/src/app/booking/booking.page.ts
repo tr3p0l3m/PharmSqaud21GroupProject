@@ -18,7 +18,6 @@ export class BookingPage implements OnInit {
   }
 
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
