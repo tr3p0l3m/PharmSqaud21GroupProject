@@ -1,4 +1,3 @@
-import { LocalNotifications } from '@ionic-native/local-notifications/ngx';
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { PassingserviceService } from '../passingservice.service';
@@ -9,8 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './booking.page.html',
   styleUrls: ['./booking.page.scss'],
 })
-export class BookingPage implements OnInit {
-<<<<<<< HEAD
+export class BookingPage {
   tripType: String;
   departureAirport: String;
   arrivalAirport: String;
@@ -47,33 +45,16 @@ export class BookingPage implements OnInit {
     this.passingserviceService.setflightDate(this.date);
     this.passingserviceService.setflightPassengers(this.passengers);
     this.passingserviceService.setClass(this.passClass);
-=======
-  clickSub: any;
-  constructor( private http: HttpClient, private LocalNotifications: LocalNotifications) { }
+  // constructor( private http: HttpClient, private LocalNotifications: LocalNotifications) { }
 
-  runHttp() {
-    this.http.get('http://thecode4allinitiative.org/atlantis/atlantis/getAllFlightData.php')
-    .subscribe(data => {
-      console.log();
-    });
-    this.Ticket_Notif();
+  // runHttp() {
+  //   this.http.get('http://thecode4allinitiative.org/atlantis/atlantis/getAllFlightData.php')
+  //   .subscribe(data => {
+  //     console.log();
+  //   });
   }
 
-  Ticket_Notif(){
-    this.LocalNotifications.schedule({
-      id: 1,
-      text: 'Your flight has been succesfully booked.',
-      data: {secret: 'secret'},
-      silent: false,
-      group: 'Atlantis',
-      autoClear: true,
-      launch: true,
-      priority: 3,
-      vibrate: true,
-      foreground: true
-    });
->>>>>>> 13454c1fb7ce78f1c472f7c3809ad894cfcdc227
-  }
+  
 
   ngOnInit() {
   }
